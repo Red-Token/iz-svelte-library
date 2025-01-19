@@ -1,5 +1,9 @@
 {
-	"name": "iz-svelte-library",
+	"name": "@Red-Token/iz-svelte-library",
+	"description": "Library of reusable Svelte components",
+	"publishConfig": {
+		"access": "public"
+	},
 	"version": "0.0.1",
 	"license": "MIT",
 	"scripts": {
