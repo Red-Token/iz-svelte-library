@@ -1,10 +1,10 @@
 {
-	"name": "@Red-Token/iz-svelte-library",
+	"name": "@red-token/iz-svelte-library",
 	"description": "Library of reusable Svelte components",
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
@@ -35,6 +35,10 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
+		},
+		"./QRCode.svelte": {
+			"types": "./dist/QRCode.svelte.d.ts",
+			"svelte": "./dist/QRCode.svelte"
 		}
 	},
 	"peerDependencies": {
@@ -68,7 +72,7 @@
 		"vitest": "^2.1.8"
 	},
 	"dependencies": {
-		"qrcode": "^1.5.4",
-		"@types/qrcode": "^1.5.5"
+		"@types/qrcode": "^1.5.5",
+		"qrcode": "^1.5.4"
 	}
 }
