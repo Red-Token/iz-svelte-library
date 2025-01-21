@@ -10,7 +10,7 @@
 		"isolatedModules": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
-		"lib": ["esnext", "DOM", "DOM.Iterable"],
+		"lib": ["esnext"],
 		"module": "ESNext",
 		"moduleResolution": "bundler",
 		"strict": true

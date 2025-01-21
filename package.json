@@ -4,7 +4,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "0.0.4",
+	"version": "0.0.12",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
@@ -29,16 +29,14 @@
 		"**/*.css"
 	],
 	"type": "module",
-	"svelte": "./dist/index.js",
-	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
 		},
-		"./QRCode.svelte": {
-			"types": "./dist/QRCode.svelte.d.ts",
-			"svelte": "./dist/QRCode.svelte"
+		"./state": {
+			"types": "./dist/state/index.d.ts",
+			"default": "./dist/state/index.js"
 		}
 	},
 	"peerDependencies": {
